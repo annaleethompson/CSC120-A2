@@ -69,6 +69,7 @@ class ResaleShop:
         computer.price = new_price
         #Computer.update_price(itemID, new_price)
 
+#Tests
 Egg_shop = ResaleShop({}, "Egg's Shop")
 
 Egg_shop.buy(egg_computer)

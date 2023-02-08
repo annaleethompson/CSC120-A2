@@ -55,7 +55,7 @@ class Computer:
         print("Year Made:", self.year_made)
         print("Price:", self.price)
        
-
+#Tests
 # my_my_computer = Computer("Mac Pro (Late 2013)", "3.5 GHc 6-Core Intel Xeon E5", 1024, 64,"macOS Big Sur", 2013, 1500)
 # my_my_computer.check_price()
 # my_my_computer.print_product_details()
