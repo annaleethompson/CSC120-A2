@@ -1,3 +1,5 @@
+'''NOT A PART OF A2:OBJECT-IFICATION'''
+
 from computer import Computer
 from oo_resale_shop import ResaleShop, computer
 def main(): 

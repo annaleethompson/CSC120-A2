@@ -1,3 +1,5 @@
 Use this file to record your reflection on this assignment. 
 
 What worked, what didn't, what advice would you give someone taking this course in the future?
+
+Going into this assignment I definitly felt very overwhelmed, mostly because I didn't know where to start. I would have liked a little more guidence in understanding what I should do and personally, I should have done a little more work to fully understand object oriented programming before diving in. Something that worked well was my colaboration with others. Working with my friends and going to the tutoring hours really helped me to start coding and debug my assignment. To someone taking this course in the future, I would say to read the instructions/watch the video carefully and ask for help if you don't know where to start/continue.
