@@ -33,7 +33,7 @@ class Computer:
     def refurbish(self, new_os: Optional[str] = None):
             if self.year_made < 2000:
                 self.price = 0 # too old to sell, donation only
-            elif self.price < 2012:
+            elif self.year_made < 2012:
                 self.price= 250 # heavily-discounted price on machines 10+ years old
             elif self.year_made < 2018:
                 self.price = 550 # discounted price on machines 4-to-10 year old machines
@@ -42,6 +42,7 @@ class Computer:
 
             if new_os is not None:
                 self.operating_system = new_os # update details after installing new OS
+    
     def check_price(self): 
         print(self.price)
     
@@ -55,13 +56,13 @@ class Computer:
         print("Price:", self.price)
        
 
-my_my_computer = Computer("Mac Pro (Late 2013)", "3.5 GHc 6-Core Intel Xeon E5", 1024, 64,"macOS Big Sur", 2013, 1500)
-my_my_computer.check_price()
-my_my_computer.print_product_details()
-my_my_computer.update_price(1300)
-my_my_computer.check_price()
-my_my_computer.refurbish()
-my_my_computer.print_product_details()
+# my_my_computer = Computer("Mac Pro (Late 2013)", "3.5 GHc 6-Core Intel Xeon E5", 1024, 64,"macOS Big Sur", 2013, 1500)
+# my_my_computer.check_price()
+# my_my_computer.print_product_details()
+# my_my_computer.update_price(1300)
+# my_my_computer.check_price()
+# my_my_computer.refurbish()
+# my_my_computer.print_product_details()
 
 
 
